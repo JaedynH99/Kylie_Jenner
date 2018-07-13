@@ -17,7 +17,6 @@ def load_article(article):
                 if previous_word:
                     graph.add_edge(Edge(previous_word, node))
                 previous_word = node
-
     a.close()
 
 
